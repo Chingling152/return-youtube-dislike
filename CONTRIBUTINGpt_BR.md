@@ -1,43 +1,43 @@
-Read this in other languages: [русский](CONTRIBUTINGru.md), [Nederlands](CONTRIBUTINGnl.md), [Français](CONTRIBUTINGfr.md), [Türkçe](CONTRIBUTINGtr.md), [українська](CONTRIBUTINGuk.md), [Polski](CONTRIBUTINGpl.md)
+Leia isso em outros idiomas: [русский](CONTRIBUTINGru.md), [Nederlands](CONTRIBUTINGnl.md), [Français](CONTRIBUTINGfr.md), [Türkçe](CONTRIBUTINGtr.md), [українська](CONTRIBUTINGuk.md), [Polski](CONTRIBUTINGpl.md)
 
 # Bem-vindo ao Guia de contribuição do Return YouTube Dislikes
 
-Thank you for investing your time in contributing to our project! All your changes will be reflected in the next version of the extension (or the [website](https://www.returnyoutubedislike.com/)).
+Obrigado por investir o seu tempo contribuindo para o nosso projeto! Todas as mudanças serão refletidas na proxima versão da extensão: (ou no [website](https://www.returnyoutubedislike.com/)).
 
-## Vamos ao  começo
+## Vamos ao começo
 
-Por favor use o Prettir com a configurações padrão de formatação.
+Por favor use o Prettier com a configurações padrão de formatação.
 
-#### Prerequisites
+#### Pré-requisitos
 
-vocÊ precisa ter node e npm instalado para criar um You need to have node and npm installed to create the bundled version of the source.
+Você precisa ter node e npm instalado para criar a versão compilada do código.
 
 Versões que usará quando estiver trabalhando nisso:
 
 - node: 12.18.4
 - npm: 6.14.6
 
-To create the `bundled-content-script.js` that contains most of the business logic of this extension you have to install all dependencies first.
+Para criar o `bundled-content-script.js` que contem a maioria da lógica de negócio dessa extensão, você precisa instalar todas as dependências primeiro.
 
-1. Vá para a raiz do repositorio e execute:
+1. Vá para a raiz do repositório e execute:
 
 ```
 npm install
 ```
 
-2. Execute o seguinte comando para criar `bundled-content-script.js` which (what is?) e usando no `manifest.json`
+2. Execute o seguinte comando para criar `bundled-content-script.js` que é usado no `manifest.json`
 
 ```
-npm start // to create the build file(s) and start a file watcher that hot-reloads on save
+npm start // para criar um arquivo(s) de build e iniciar um observador de arquivos que faça hot-reloads ao salvar.
 
 // ou
 
 npm run build // para criar uma build para cria um arquivo de build 
 ```
 
-Congratulations, You are now ready to develop!
+Parabéns, você agora está pronto para desenvolver!
 
-If you are new to developing Chrome extensions, or need extra help, please see [this YouTube tutorial](https://www.youtube.com/watch?v=mdOj6HYE3_0)
+Se você é novato no desenvolvimento de extensões para o Chrome, ou precisa de ajuda, por favor veja [esse tutorial no YouTube](https://www.youtube.com/watch?v=mdOj6HYE3_0)
 
 ### Problemas
 
@@ -47,21 +47,21 @@ Se voce tiver qualquer problema com a extensão, por favor pesquisa o que faz o 
 
 #### Solucionando um problema
 
-Se você tiver um problema If you found an issue that you feel you might be able to solve, Não seja  "shy"? . Abra um PR(Pull Request)com a correção e faça uma menção do problema que está consertando.
+Se você tiver um problema que você acha que pode resolver, não seja tímido. Abra um PR com a correção e faça uma menção do problema que está corrigindo.
 
-### Requisitação de Recurso
+### Requisitação de Funcionalidade
 
-#### Abrindo uma nova requisitação de recurso
+#### Abrindo uma nova requisitação de funcionalidade
 
-Se você tem alguma ideia para a extensão, sinta livre para abrir uma requisitação de recurso, mas por favor pesquise isso antes para não perder seu tempo com sua sugestão. Usando o formulario de recurso é altamente recomendado mas não é um obrigação.
+Se você tem alguma ideia para a extensão, sinta-se livre para abrir uma requisitação de funcionalidade, mas por favor pesquise isso antes para não perder seu tempo com sua sugestão. Usar o formulario de recurso é altamente recomendado mas não é um obrigação.
 
-#### Implementando uma requisitação de recurso
+#### Implementando uma requisitação de funcionalidade
 
-If you found a feature that you feel you might be able to implement, don't be shy. Open a PR with the fix and make sure to mention the feature you are implementing.
+Se você achou uma funcionalidade que você acha que consegue implementar, não seja tímido. Abra um PR com a correção e tenha certeza de mencionar a feature que você está implementando.
 
-### What PRs do we accept?
+### Que PRs nós aceitamos?
 
 - Resolução de problemas.
-- Implementação de recurso.
-- Marcação, melhoria facilitação de palavras usadas.
-- Contribuição para o Website.
+- Implementação de funcionalidades.
+- Erros de digitação ou palavras melhores e mais fáceis de usar.
+- Contribuições para o Website.
