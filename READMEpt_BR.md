@@ -14,7 +14,7 @@ Leia isso em outros idiomas: [русский](READMEru.md), [Español](READMEes.
 
 
 <p align="center">
-    <b>Return YouTube Dislike é uma extensão de codigo aberto que retorna com o contador de Deslike do Youtube.</b></i> Agora está disponivel apenas para os proprietarios dos Canais<i><br>
+    <b>Return YouTube Dislike é uma extensão de código aberto que retorna com o contador de Deslike do Youtube.</b></i> Agora está disponível apenas para os proprietários dos canais<i><br>
        Disponivel para Chrome e Firefox como uma extensão Web.<br>
        e também disponivel para outros navegadores como um JS UserScript.<br><br>
     <img width="400px" src="https://user-images.githubusercontent.com/18729296/141743755-2be73297-250e-4cd1-ac93-8978c5a39d10.png"/>
@@ -22,9 +22,9 @@ Leia isso em outros idiomas: [русский](READMEru.md), [Español](READMEes.
 
 ## Nossa Historia
 
-Em 10 de novembro de 2021 a Google [Anuciou](https://blog.youtube/news-and-events/update-to-youtube/) que o contador de Deslikes do Youtube seria removido. 
+Em 10 de novembro de 2021 a Google [Anúnciou](https://blog.youtube/news-and-events/update-to-youtube/) que o contador de Dislikes do Youtube seria removido. 
 
-Additionally, the `dislike` field in the YouTube API was [removed](https://support.google.com/youtube/thread/134791097/update-to-youtube-dislike-counts) on December 13th, 2021, removing any ability to judge the quality of content before watching.
+Adicionalmente, o campo de `dislike` na API do Youtube foi [removido](https://support.google.com/youtube/thread/134791097/update-to-youtube-dislike-counts) no dia 13 de dezembro de 2021, removendo qualquer capacidade de avaliar a qualidade do conteúdo antes de assistir 
 
 ## Como isso funciona
 
@@ -66,7 +66,7 @@ Exemplo para obter os votos pelo Youtube Video ID:
 }
 ```
 
-Nenhum youtube id exstente irá retornar o codigo de status _404_ "Nada encontrado".  
+Non-existent YouTube ID will return status code _404_ "Not Found".  
 Wrong formed YouTube ID will return _400_ "Bad Request".
 
 <!---
