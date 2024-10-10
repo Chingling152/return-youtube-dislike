@@ -1,30 +1,30 @@
 Leia isso em outros Idiomas: [русский](FAQru.md), [Français](FAQfr.md), [Nederlands](FAQnl.md), [Türkçe](FAQtr.md), [українська](FAQuk.md), [Polski](FAQpl.md)
 
-# Frequently Asked Questions
+# Perguntas frequentes
 
-## Before asking a question on GitHub or Discord, please refer to this.
-
-<br>
-
-### **1. Where does this extension get the data?**
-
-A Combination of Google APIs and scraped data.
-
-We save all available data to our DB for it to be available after Google shuts down dislike counts in their API.
+## Antes de fazer uma perguntar no GitHub ou Discord, por favor consulte isso.
 
 <br>
 
-### **2. Video dislike count doesn't update**
+### **1. De onde essa extensão recebe dados?**
 
-Right now video dislikes are cached, and aren't updated very frequenly. Once every 2-3 days, not more often.
+Uma combinação das APIs do Google e dados extraídos.
 
-Yeah, it's not ideal, but it is what it is. Working on improving how often we can update them.
+Nós salvamos todos os dados disponiveis no nosso banco de dados pra isso ficar disponivel após a Google desligar o contador de dislikes na API deles.
 
 <br>
 
-### **3. How does this work?**
+### **2. Quantidade de dislikes do video não atualizando**
 
-The extension collects the video id of the video you are watching, fetches the dislike (and other fields like views, likes etc) using our API, if this is the first time the video was fetched by our API, it will use the YouTube API to get the data, then stores the data in a database for caching (cached for around 2-3 days) and archiving purposes and returns it to you. The extension then displays the dislikes to you.
+Por enquanto, os dislikes dos videos são mantidos em cache e não são atualizados tão frequentemente. Uma vez a cada 2-3 dias, no máximo.
+
+Sim, não é o ideal, mas é o que tem que ser. Funcionando e melhorando conforme atualizamos.
+
+<br>
+
+### **3. Como que isso funciona?**
+
+A extensão coleta o id do vídeo que você está assistindo, busca os dislikes (e outros campos como views, likes, etc) usando nossa API, se esse é a primeira vez que o vídeo foi retornando pela nossa API, ela vai usar a API do Youtube para buscar os dados, e então, armazenar os dados em um banco de dados para fins de cache (fica em cache por 2-3 dias) e arquivamento e retorna para você. A extensão então mostra os dislikes.
 
 <br>
 
@@ -58,4 +58,4 @@ Essa a This in video form
 
 ## I have security / privacy concerns
 
-See [this page](SECURITY-FAQpt_BR.md) for more info.
+Leia [essa pagina](SECURITY-FAQpt_BR.md) para mais informações.
